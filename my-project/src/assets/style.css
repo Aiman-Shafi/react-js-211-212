@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  font-size: 40px;
+  color: rgb(118, 118, 189);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.counter {
+  padding: 30px 60px;
+  max-width: 600px;
+  margin: auto;
+  font-size: 30px;
+  border: 2px solid gray;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+}
